@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{77CDD423-9FFE-4FBC-B63A-C79BC37F0C9F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DA_SIFCOS</RootNamespace>
+    <AssemblyName>DA_SIFCOS</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="daBase.cs" />
+    <Compile Include="DataAccessMethods.cs" />
+    <Compile Include="Entidades\Actividad.cs" />
+    <Compile Include="Entidades\Calles.cs" />
+    <Compile Include="Entidades\CodigoQr.cs" />
+    <Compile Include="Entidades\ComercioDto.cs" />
+    <Compile Include="Entidades\Comunicacion.cs" />
+    <Compile Include="Entidades\ConceptoTasa.cs" />
+    <Compile Include="Entidades\consultaTramite.cs" />
+    <Compile Include="Entidades\Contacto.cs" />
+    <Compile Include="Entidades\DaException.cs" />
+    <Compile Include="Entidades\Entidad.cs" />
+    <Compile Include="Entidades\Enumeraciones.cs" />
+    <Compile Include="Entidades\Helpers.cs" />
+    <Compile Include="Entidades\InformeGeneralBoca.cs" />
+    <Compile Include="Entidades\InscripcionEvento.cs" />
+    <Compile Include="Entidades\InscripcionSifcos.cs" />
+    <Compile Include="Entidades\InscripcionSifcosDto.cs" />
+    <Compile Include="Entidades\IPdata.cs" />
+    <Compile Include="Entidades\Organismo.cs" />
+    <Compile Include="Entidades\Organismos.cs" />
+    <Compile Include="Entidades\Persona.cs" />
+    <Compile Include="Entidades\PersonaFisica.cs" />
+    <Compile Include="Entidades\PersonaJuridica.cs" />
+    <Compile Include="Entidades\PlanillaAsistenciaDTO.cs" />
+    <Compile Include="Entidades\Producto.cs" />
+    <Compile Include="Entidades\ReporteDto.cs" />
+    <Compile Include="Entidades\ResultadoRule.cs" />
+    <Compile Include="Entidades\Roles.cs" />
+    <Compile Include="Entidades\Rubro.cs" />
+    <Compile Include="Entidades\RubroActividad.cs" />
+    <Compile Include="Entidades\Sede.cs" />
+    <Compile Include="Entidades\SifLiqOrganismos.cs" />
+    <Compile Include="Entidades\SifLiqTramites.cs" />
+    <Compile Include="Entidades\SifLiquidaciones.cs" />
+    <Compile Include="Entidades\SifRelevamientos.cs" />
+    <Compile Include="Entidades\SifRelevDetalle.cs" />
+    <Compile Include="Entidades\SingletonParametroGeneral.cs" />
+    <Compile Include="Entidades\Superficie.cs" />
+    <Compile Include="Entidades\tramitePanel.cs" />
+    <Compile Include="Entidades\Trs.cs" />
+    <Compile Include="Entities\Auditoria\AuditoriaGeneral.cs" />
+    <Compile Include="Entities\CDDAutorizador\Autorizador.cs" />
+    <Compile Include="Entities\CDDAutorizador\Autorizador_S_Key.cs" />
+    <Compile Include="Entities\CDDAutorizador\CDDAutorizadorData.cs" />
+    <Compile Include="Entities\CDDAutorizador\CDDAutorizadorSData.cs" />
+    <Compile Include="Entities\CDDPost\CDDPost.cs" />
+    <Compile Include="Entities\CDDPost\CDDPostAplicacionPermisosCatalogos.cs" />
+    <Compile Include="Entities\CDDPost\CDDPostExpediente.cs" />
+    <Compile Include="Entities\CDDPost\CDDPostListaDocumentacion.cs" />
+    <Compile Include="Entities\CDDPost\CDDSPost.cs" />
+    <Compile Include="Entities\CDDResponse\CDDResponse.cs" />
+    <Compile Include="Entities\CDDResponse\CDDResponseAplicacionPermisosCatalogos.cs" />
+    <Compile Include="Entities\CDDResponse\CDDResponseAuditoriaGeneral.cs" />
+    <Compile Include="Entities\CDDResponse\CDDResponseConsulta.cs" />
+    <Compile Include="Entities\CDDResponse\CDDResponseDocumentacion.cs" />
+    <Compile Include="Entities\CDDResponse\CDDResponseEliminacion.cs" />
+    <Compile Include="Entities\CDDResponse\CDDResponseInsercion.cs" />
+    <Compile Include="Entities\CDDResponse\CDDResponseListaDocumentacion.cs" />
+    <Compile Include="Entities\CDDResponse\CDDResponseLogin.cs" />
+    <Compile Include="Entities\CDDResponse\CDDResponseSConsulta.cs" />
+    <Compile Include="Entities\CDDResponse\CDDResponseSLogin.cs" />
+    <Compile Include="Entities\Ciudadano Digital\Documentacion.cs" />
+    <Compile Include="Entities\Ciudadano Digital\Domicilio.cs" />
+    <Compile Include="Entities\Ciudadano Digital\Entrada.cs" />
+    <Compile Include="Entities\Ciudadano Digital\Permiso.cs" />
+    <Compile Include="Entities\Ciudadano Digital\Representado.cs" />
+    <Compile Include="Entities\Ciudadano Digital\Respuesta.cs" />
+    <Compile Include="Entities\Ciudadano Digital\Ubicacion.cs" />
+    <Compile Include="Entities\Ciudadano Digital\Usuario.cs" />
+    <Compile Include="Entities\Documentacion\Documentacion.cs" />
+    <Compile Include="Entities\Documentacion\MetadataDocumentacionCDD.cs" />
+    <Compile Include="Entities\Errores\AttributesHelperExtension.cs" />
+    <Compile Include="Entities\Errores\CDDMapError.cs" />
+    <Compile Include="Entities\Errores\EnumCDDError.cs" />
+    <Compile Include="Entities\Errores\Error.cs" />
+    <Compile Include="Entities\Excepcion\CDDException.cs" />
+    <Compile Include="Entities\Imagen\Imagen.cs" />
+    <Compile Include="Entities\Imagen\S_Imagen.cs" />
+    <Compile Include="Entities\Ciudadano Digital\Config.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\DocumentConverter.cs" />
+    <Compile Include="Utils\Helpers.cs" />
+    <Compile Include="Utils\ITextEvents.cs" />
+    <Compile Include="Utils\MapeadorWebApi.cs" />
+    <Compile Include="Utils\MimeType.cs" />
+    <Compile Include="Utils\PDFHelper.cs" />
+    <Compile Include="Utils\Reflection.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="AppComunicacion, Version=1.2.8.5, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SIIC_2025\SIIC\bin\AppComunicacion.dll</HintPath>
+    </Reference>
+    <Reference Include="CryptoManagerV4.0, Version=3.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SIIC_2025\SIIC\bin\CryptoManagerV4.0.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.3.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SIIC_2025\SIIC\bin\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\SIIC_2025\DDLs\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\SIIC_2025\DDLs\Microsoft.Office.Interop.Word.15.0.4797.1003\lib\net20\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SIIC_2025\SIIC\bin\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SIIC_2025\SIIC\bin\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SIIC_2025\SIIC\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SIIC_2025\SIIC\bin\Microsoft.ReportViewer.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.MSAjax, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SIIC_2025\SIIC\bin\Microsoft.ScriptManager.MSAjax.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SIIC_2025\SIIC\bin\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SIIC_2025\SIIC\bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.122.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\SIIC_2025\DDLs\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Sockets" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

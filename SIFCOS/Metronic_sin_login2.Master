@@ -1,0 +1,155 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Metronic_sin_login2.Master.cs" Inherits="SIFCOS.Metronic_sin_login2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>:: SIFCOS - Gobierno de Córdoba  ::</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" />
+    <link rel="stylesheet" type="text/css" href="metronic/assets/global/plugins/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="metronic/assets/global/plugins/simple-line-icons/simple-line-icons.min.css" />
+    <link rel="stylesheet" type="text/css" href="metronic/assets/global/plugins/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="metronic/assets/global/plugins/uniform/css/uniform.default.css" />
+    <link rel="stylesheet" type="text/css" href="metronic/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" />
+    <!-- END GLOBAL MANDATORY STYLES -->
+    <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
+    <link href="metronic/assets/global/plugins/bootstrap-daterangepicker/daterangepicker-bs3.css" rel="stylesheet" type="text/css" />
+    <!-- END PAGE LEVEL PLUGIN STYLES -->
+    <!-- BEGIN PAGE STYLES -->
+
+    <link rel="stylesheet" type="text/css" href="metronic/assets/admin/pages/css/tasks.css" />
+    <link rel="stylesheet" type="text/css" href="metronic/assets/global/plugins/bootstrap-datepicker/css/datepicker3.css" />
+    <link rel="stylesheet" type="text/css" href="metronic/assets/global/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css" />
+    <link rel="stylesheet" type="text/css" href="metronic/assets/global/plugins/bootstrap-colorpicker/css/colorpicker.css" />
+    <link rel="stylesheet" type="text/css" href="metronic/assets/global/plugins/bootstrap-daterangepicker/daterangepicker-bs3.css" />
+    <link rel="stylesheet" type="text/css" href="metronic/assets/global/plugins/bootstrap-datetimepicker/css/datetimepicker.css" />
+    <!-- END PAGE STYLES -->
+    <!-- BEGIN THEME STYLES -->
+    <link rel="stylesheet" type="text/css" href="metronic/assets/global/css/components.css" />
+    <link rel="stylesheet" type="text/css" href="metronic/assets/global/css/plugins.css" />
+    <link rel="stylesheet" type="text/css" href="metronic/assets/admin/layout/css/layout.css" />
+    <link rel="stylesheet" type="text/css" href="metronic/assets/admin/layout/css/themes/darkblue.css" id="style_color" />
+    <link rel="stylesheet" type="text/css" href="metronic/assets/admin/layout/css/custom.css" />
+    <link rel="stylesheet" type="text/css" href="Styles/css/custom.css" />
+    <link rel="stylesheet" type="text/css" href="Styles/css/light.css" />
+    <link rel="stylesheet" type="text/css" href="Styles/css/w3.css" />
+
+
+    <link href="metronic/assets/global/plugins/select2/select2.css" rel="stylesheet" type="text/css" />
+
+    <!-- END THEME STYLES -->
+    <link rel="shortcut icon" href="Resources/LogosNvos/MAPASOLO-1.png" />
+    <!-- END HEAD -->
+
+
+</head>
+<body class="page-header-fixed">
+    <form id="form1" runat="server">
+        <%--<div class="page-header navbar navbar-fixed-top">
+            <!-- BEGIN HEADER INNER -->
+            <div>
+                <!-- BEGIN LOGO -->
+
+                <!-- END LOGO -->
+                <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+                <a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse"></a>
+                <!-- END RESPONSIVE MENU TOGGLER -->
+                <!-- BEGIN TOP NAVIGATION MENU -->
+
+                <!-- END TOP NAVIGATION MENU -->
+            </div>
+            <!-- END HEADER INNER -->
+        </div>--%>
+
+        <%--CONTENEDOR PRINCIPAL--%>
+        <!-- BEGIN CONTENT -->
+        <div class="page-container">
+            <div class="page-content-wrapper">
+                <div class="page-content2">
+                    <asp:ContentPlaceHolder runat="server" ID="HeaderContent">
+                    </asp:ContentPlaceHolder>
+                    <div>
+                        <asp:ContentPlaceHolder ID="ContenedorPrincipal" runat="server"></asp:ContentPlaceHolder>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+       <%--FINAL DE LA PAGINA--%>
+        <%-- <div class="page-footer">
+            <div class="page-footer-tools">
+                <span class="go-top2">
+                    <i class="fa fa-angle-up"></i>
+                </span>
+            </div>
+        </div>--%>
+
+
+        <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- BEGIN CORE PLUGINS -->
+        <!--[if lt IE 9]>
+<script src="metronic/assets/global/plugins/respond.min.js"></script>
+<script src="metronic/assets/global/plugins/excanvas.min.js"></script> 
+<![endif]-->
+        <script type="text/javascript" src="metronic/assets/global/plugins/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="metronic/assets/global/plugins/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="metronic/assets/global/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.js"></script>
+        <script type="text/javascript" src="metronic/assets/global/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="metronic/assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js"></script>
+        <script type="text/javascript" src="metronic/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+        <script type="text/javascript" src="metronic/assets/global/plugins/jquery.blockui.min.js"></script>
+        <script type="text/javascript" src="metronic/assets/global/plugins/jquery.cokie.min.js"></script>
+        <script type="text/javascript" src="metronic/assets/global/plugins/uniform/jquery.uniform.min.js"></script>
+        <script type="text/javascript" src="metronic/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js"></script>
+        <!-- END CORE PLUGINS -->
+
+        <script type="text/javascript" src="metronic/assets/global/plugins/select2/select2.min.js"></script>
+
+
+        <!-- BEGIN PAGE LEVEL SCRIPTS -->
+        <script type="text/javascript" src="metronic/assets/global/scripts/metronic.js"></script>
+        <script type="text/javascript" src="metronic/assets/admin/layout/scripts/layout.js"></script>
+        <script type="text/javascript" src="metronic/assets/admin/layout/scripts/quick-sidebar.js"></script>
+        <script type="text/javascript" src="metronic/assets/admin/pages/scripts/index.js"></script>
+        <script type="text/javascript" src="metronic/assets/admin/pages/scripts/tasks.js"></script>
+        <%--AGREGADO PARA LOS FORMULARIOS--%>
+        <script type="text/javascript" src="metronic/assets/admin/pages/scripts/components-form-tools.js"></script>
+        <script type="text/javascript" src="metronic/assets/global/plugins/jquery-inputmask/jquery.inputmask.bundle.js"></script>
+        <script type="text/javascript" src="metronic/assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+
+        <script type="text/javascript" src="metronic/assets/global/plugins/bootstrap-daterangepicker/moment.min.js"></script>
+        <script type="text/javascript" src="metronic/assets/global/plugins/bootstrap-daterangepicker/daterangepicker.js"></script>
+        <script type="text/javascript" src="metronic/assets/global/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>
+        <script type="text/javascript" src="metronic/assets/global/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+        <script type="text/javascript" src="metronic/assets/admin/pages/scripts/components-pickers.js"></script>
+        <script type="text/javascript" src="metronic/assets/global/plugins/bootstrap-datepicker/js/locales/bootstrap-datepicker.es.js"></script>
+        <!-- END PAGE LEVEL SCRIPTS -->
+        <script type="text/javascript">
+            jQuery(document).ready(function () {
+                ComponentsFormTools.init();
+                Metronic.init(); // init metronic core componets
+                Layout.init(); // init layout
+                
+                
+
+
+            });
+        </script>
+        <!-- END JAVASCRIPTS -->
+
+
+
+
+        <asp:ContentPlaceHolder ID="ContentScript" runat="server"></asp:ContentPlaceHolder>
+
+
+    </form>
+</body>
+</html>

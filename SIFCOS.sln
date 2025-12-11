@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL_SIFCOS", "BL_SIFCOS\BL_SIFCOS.csproj", "{195626B1-BE99-4EC3-B974-943BFFFE3BD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DA_SIFCOS", "DA_SIFCOS\DA_SIFCOS.csproj", "{77CDD423-9FFE-4FBC-B63A-C79BC37F0C9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BotonUnClick", "BotonUnClick\BotonUnClick.csproj", "{9410FBBE-2E84-4234-96A0-990869241CB0}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SIFCOS", "SIFCOS\", "{7775F033-5666-40B8-B5E2-F5A80A20D87B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_37506"
+		Debug.AspNetCompiler.PhysicalPath = "SIFCOS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_37506\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_37506"
+		Release.AspNetCompiler.PhysicalPath = "SIFCOS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_37506\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "37506"
+		SlnRelativePath = "SIFCOS\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{195626B1-BE99-4EC3-B974-943BFFFE3BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{195626B1-BE99-4EC3-B974-943BFFFE3BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{195626B1-BE99-4EC3-B974-943BFFFE3BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{195626B1-BE99-4EC3-B974-943BFFFE3BD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77CDD423-9FFE-4FBC-B63A-C79BC37F0C9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77CDD423-9FFE-4FBC-B63A-C79BC37F0C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77CDD423-9FFE-4FBC-B63A-C79BC37F0C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77CDD423-9FFE-4FBC-B63A-C79BC37F0C9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9410FBBE-2E84-4234-96A0-990869241CB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9410FBBE-2E84-4234-96A0-990869241CB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9410FBBE-2E84-4234-96A0-990869241CB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9410FBBE-2E84-4234-96A0-990869241CB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7775F033-5666-40B8-B5E2-F5A80A20D87B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7775F033-5666-40B8-B5E2-F5A80A20D87B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7775F033-5666-40B8-B5E2-F5A80A20D87B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{7775F033-5666-40B8-B5E2-F5A80A20D87B}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3C4AE60-EDC9-417E-A7C3-9695E66E3DDE}
+	EndGlobalSection
+EndGlobal

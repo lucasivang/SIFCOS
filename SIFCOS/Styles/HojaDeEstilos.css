@@ -1,0 +1,230 @@
+﻿@font-face {
+    
+    font-family: Montserrat-Black;
+    src:url('../Resources/fuentes/Montserrat/Montserrat-Black.ttf')
+}
+@font-face {
+    
+    font-family: Montserrat-BlackItalic;
+    src:url('../Resources/fuentes/Montserrat/Montserrat-BlackItalic.ttf')
+}
+@font-face {
+    
+    font-family: Montserrat-Bold;
+    src:url('../Resources/fuentes/Montserrat/Montserrat-Bold.ttf')
+}
+@font-face {
+    
+    font-family: Montserrat-BoldItalic;
+    src:url('../Resources/fuentes/Montserrat/Montserrat-BoldItalic.ttf')
+}
+@font-face {
+    
+    font-family: Montserrat-ExtraBold;
+    src:url('../Resources/fuentes/Montserrat/Montserrat-ExtraBold.ttf')
+}
+@font-face {
+    
+    font-family: Montserrat-ExtraBoldItalic;
+    src:url('../Resources/fuentes/Montserrat/Montserrat-ExtraBoldItalic.ttf')
+}
+@font-face {
+    
+    font-family: Montserrat-ExtraLight;
+    src:url('../Resources/fuentes/Montserrat/Montserrat-ExtraLight.ttf')
+}
+@font-face {
+    
+    font-family: Montserrat-ExtraLightItalic;
+    src:url('../Resources/fuentes/Montserrat/Montserrat-ExtraLightItalic.ttf')
+}
+@font-face {
+    
+    font-family: Montserrat-Italic;
+    src:url('../Resources/fuentes/Montserrat/Montserrat-Italic.ttf')
+}
+@font-face {
+    
+    font-family: Montserrat-Light;
+    src:url('../Resources/fuentes/Montserrat/Montserrat-Light.ttf')
+}
+@font-face {
+    
+    font-family: Montserrat-LightItalic;
+    src:url('../Resources/fuentes/Montserrat/Montserrat-LightItalic.ttf')
+}
+@font-face {
+    
+    font-family: Montserrat-Medium;
+    src:url('../Resources/fuentes/Montserrat/Montserrat-Medium.ttf')
+}
+@font-face {
+    
+    font-family: Montserrat-MediumItalic;
+    src:url('../Resources/fuentes/Montserrat/Montserrat-MediumItalic.ttf')
+}
+@font-face {
+    
+    font-family: Montserrat-Regular;
+    src:url('../Resources/fuentes/Montserrat/Montserrat-Regular.ttf')
+}
+@font-face {
+    
+    font-family: Montserrat-SemiBold;
+    src:url('../Resources/fuentes/Montserrat/Montserrat-SemiBold.ttf')
+}
+@font-face {
+    
+    font-family: Montserrat-SemiBoldItalic;
+    src:url('../Resources/fuentes/Montserrat/Montserrat-SemiBoldItalic.ttf')
+}
+@font-face {
+    
+    font-family: Montserrat-Thin;
+    src:url('../Resources/fuentes/Montserrat/Montserrat-Thin.ttf')
+}
+@font-face {
+    
+    font-family: Montserrat-ThinItalic;
+    src:url('../Resources/fuentes/Montserrat/Montserrat-ThinItalic.ttf')
+}
+
+
+
+.botonCuadrado {
+    min-width: 80px;
+    margin: 5px 5px 0 0;
+    
+    background-image: none;
+    filter: none;
+  
+    -moz-box-shadow: none;
+    box-shadow: none;
+  
+    cursor: pointer;
+  
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+   
+    background-color: #53aae099;
+   
+
+    padding-bottom: 64px;
+    padding-left: 57px;
+    padding-right: 50px;
+    padding-top: 26px;
+
+    border: white;
+    border-style: groove;
+   
+    width: 100% !important;
+    color: white !important;
+}
+p {
+    font-size: x-large;
+}
+
+#divCidiUsr {
+    /*right: 25px;*/
+    top: 60px;
+    /*background: rgba(0, 0, 0, 0.08);*/
+    width: auto;
+    padding: 15px 25px;
+    /* border-radius: 0 0 8px 8px; */
+    z-index: 999;
+    /*position: absolute;*/
+ 
+   
+}
+.inicio div#divCidiUsr {
+    background: rgba(0, 0, 0, 0.08);
+    width: auto;
+    padding: 15px 25px;
+    /* border-radius: 0 0 8px 8px; */
+    z-index: 999;
+    position: absolute;
+    top: 60px;
+    right: 35%;
+}
+
+
+div#divCidiUsr img {
+
+    float:left;
+}
+
+div#divCidiUsr{
+    right: 0!important;
+    /*width: 317px;*/
+    padding: 5px 0;
+    /*background: #0483b3;*/
+    }
+
+span.cidi_user {
+    padding: 7px;
+    float: left;
+}
+
+span#lblCidi {
+float:left;
+width:100%;
+}
+
+
+span.cidi_user {
+
+padding: 6px;
+border-radius: 3px;
+float: right;
+}
+
+span.cidi_user a
+{
+    color:#FBAA19;
+    font-size:1.3em;
+}
+
+.nombrecidi {
+  float: left;
+  font-size: 1.3em;
+  padding: 8px;
+  
+}
+
+.nombrecidi a {
+  color: #fff;
+}
+
+a.col-nuevo1  {
+    
+    margin: 0 4%;
+    margin-left: 32%;
+    margin-top: -11%;
+    border-radius: 9px;
+    background: rgba(255, 102, 51, 0.85);
+    color: #fff;
+    font-size: 2em;
+    font-variant: normal;
+    text-shadow: 0 0 8px #222;
+    padding: 10px; 
+    position: absolute;
+    z-index: 999;
+   
+}
+ 
+.col-nuevo1 i {
+    color: #2C2C2C;
+    text-shadow: none;
+    width:100%;
+    }
+
+ 
+
+.col-nuevo1:hover{
+   background:  rgba(255, 102, 51, 0.95);
+}
+
+.lista_item {
+       list-style: none;
+}

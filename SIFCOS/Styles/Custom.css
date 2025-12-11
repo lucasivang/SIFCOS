@@ -1,0 +1,708 @@
+﻿.jtable-page-number-active {
+    color: white !important;
+    background-color: #2474F6 !important;
+    border-color: black !important;
+}
+
+.btn-success {
+    color: white !important;
+    background-color: #4B8DF8 !important;
+    
+}
+.btn-success:hover {
+    color: white !important;
+    background-color: #2474F6 !important;
+    
+}
+.jtable-title {
+    background: #0075A3 !important;
+}
+.labelPrimario {
+    text-align: right;
+}
+.labelPrimario label {
+    font-weight: bold;
+}
+
+
+.labelModificar 
+{
+    text-align: left;
+}
+
+.labelModificar label
+{
+    font-weight: bold;
+    
+}
+
+.labelSecundario {
+    text-align: left;
+}
+.labelSecundario label {
+    font-style: italic;
+}
+
+
+.botonAtras {
+    
+    background-image:  url('../Resources/back.png') !important;
+    background-repeat: no-repeat    ; 
+    background-position-x: 4%;
+    background-position-y: 50%;
+    width: 100%;
+    height: 45px;
+    padding-left: 23px;
+    padding-right: 0px;
+    font-size: large;
+}
+
+.botonSiguiente {
+     
+    background-image:  url('../Resources/next.png') !important;
+    background-repeat: no-repeat    ; 
+    background-position-x: 96%;
+    background-position-y: 50%;
+    width: 100%;
+    height: 45px;
+    padding-left: 0px;
+    padding-right: 23px;
+    font-size: large;
+}
+
+.botonNuevo {
+     
+    background-image:  url('../Resources/next.png') !important;
+    background-repeat: no-repeat    ; 
+    background-position-x: 96%;
+    background-position-y: 50%;
+    padding-left: 0px;
+    padding-right: 23px;
+    
+}
+
+.botonFinalizar {
+     
+    background-image:  url('../Resources/disquet.png') !important;
+    background-repeat: no-repeat    ; 
+    background-position-x: 96%;
+    background-position-y: 50%;
+    width: 100%;
+    height: 45px;
+    padding-left: 0px;
+    padding-right: 23px;
+    font-size: large;
+}
+
+.botonSalir {
+     
+    background-image:  url('../Resources/salir.png') !important;
+    background-repeat: no-repeat    ; 
+    background-position-x: 96%;
+    background-position-y: 50%;
+    width: 100%;
+    height: 45px;
+    padding-left: 0px;
+    padding-right: 23px;
+    font-size: large;
+}
+
+
+
+.botonIniciarTramite {
+     
+   /* background-image:  url('../Resources/inicio.png') !important;
+    background-repeat: no-repeat    ; 
+    background-position-x: 96%;
+    background-position-y: 50%;*/
+    width: 100%;
+    height: 45px;
+   /* padding-left: 0px;
+    padding-right: 23px;*/
+    font-size: large;
+    font-weight: bold;
+    padding: 0px;
+}
+
+.btnBuscar {
+        background-color: #4D4D4D;
+    color: WHITE;
+}
+
+.btnAgregarProductoALista {
+        background-color: #4D4D4D;
+    color: WHITE;
+    width: 100%;
+        font-size: 80%;
+    height: 34px;
+}
+
+.prevbuscar {
+    width: 87%;
+}
+ 
+.mostrarModalTramite   
+{
+    display: block !important;
+}
+.mostrarModificarTramite
+{
+    display: block !important;
+}
+
+.mostrarAsignarNroSifcos 
+{
+    display: block !important;   
+}
+
+.mostrarDarBajaTramite
+{
+    display: block !important;
+}
+.mostrarCambiarEstado
+{
+    display: block !important;
+}
+.mostrarInfoDeudaTramite
+{
+    display: block !important;
+}
+
+.mostrarModalFinalizacionTramite
+{
+    display: block !important;
+}
+
+.mostrarModal
+{
+    display: block !important;
+}
+
+.mostrarModalMantSistema
+{
+    display: block !important;
+}
+
+.mostrarModalVerTramite
+{
+    display: block !important;
+}
+.botonEliminar {
+    border: none; 
+    min-width: 16px; 
+    min-height: 16px;
+    background-image: url('../Resources/Img/btn_20_borrar.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+        margin: 10px;
+}
+.botonOk {
+    border: none; 
+    min-width: 16px; 
+    min-height: 16px;
+    background-image: url('../Resources/img/aceptar.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+        margin: 10px;
+}
+.botonAdvertencia {
+    border: none; 
+    min-width: 16px; 
+    min-height: 16px;
+    background-image: url('../Resources/img/advertencia.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+        margin: 10px;
+}
+
+.botonEliminar2 {
+    border: none; 
+    min-width: 16px; 
+    min-height: 16px;
+    background-image: url('../Resources/Img/btn_20_borrar2.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.botonAsignar {
+    border: none; 
+    min-width: 16px; 
+    min-height: 16px;
+    background-image: url('../Resources/Img/btn_20_checklist.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.botonCalendar {
+    border: none; 
+    min-width: 20px; 
+    min-height: 20px;
+    background-image: url('../Resources/Img/btnCalendar.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+.botonGeo {
+    border: none;
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin-left: 10px !important;
+    margin-top: 20px !important;
+}
+
+.botonNotificacion {
+    border: none;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin-left: 10px !important;
+    margin-top: 20px !important;
+}
+
+.botonTasas {
+    border: none;
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin-left: 10px !important;
+    margin-top: 20px !important;
+}
+
+
+.checkAceptCond {
+zoom: 2;
+
+}
+
+.mostrarModal {
+    display: block !important;
+}
+
+.botonEditar {
+    border: none; 
+    min-width: 16px; 
+    min-height: 16px;
+    background-image: url('../Resources/Img/btn_20_editar.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+
+.LogoSifcos {
+    width: 200px;
+    margin-top: -10px;
+    margin-left: -7px;
+    margin-left: 50px;
+}
+
+
+.campoRequerido {
+    background-color: cornsilk;
+    border-color: red;
+}
+
+
+.ajax__calendar div {
+    z-index: 9999;
+}
+
+.textBoxFecha {
+    display: table;
+    
+}
+
+.CalendarFormat {
+    z-index: 999;
+}
+
+.cerrar {
+    display: none !important;
+}
+
+.checkNegritaGrande label {
+   font-weight: bold !important;
+}
+ 
+
+.efectoBoton {
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none !important;
+  color: #fff;
+  background-color: #0075A3;
+  border: none;
+  box-shadow: 0 3px #999;
+  border-radius: 5px !important;
+     
+}
+
+.botonVer {
+    
+    background-image: url('../Resources/Img/btn_20_buscar.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+
+    width: 130px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none !important;
+    border-radius: 5px !important;
+    font-size: 10px;
+    padding: 3px;
+    background-position-y: 3px;
+    background-position-x: 42px;
+    background-color: #45b6af;
+    background-size: 14px;
+    border: none;
+}
+
+.botonImprimir {
+    
+    background-image: url('../Resources/print_2.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+
+    width: 130px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none !important;
+    
+    border-radius: 5px !important;
+    font-size: 10px;
+    padding: 3px;
+    background-position-y: 3px;
+    background-position-x: 4px;
+    background-color: #d1d1d1;
+border: none;
+}
+
+
+.botonImprimirTrs {
+    
+    background-image: url('../Resources/print_2.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+
+    width: 130px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none !important;
+    
+    border-radius: 5px !important;
+    font-size: 10px;
+    padding: 3px;
+    background-position-y: 3px;
+    background-position-x: 4px;
+    background-color: #8fbc8f;
+border: none;
+}
+.botonCDD {
+    
+   
+    background-repeat: no-repeat;
+    background-color: transparent;
+
+    width: 130px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none !important;
+    
+    border-radius: 5px !important;
+    font-size: 10px;
+    padding: 3px;
+    background-position-y: 3px;
+    background-position-x: 4px;
+    background-color: #4682b4;
+	 color: #fff;
+border: none;
+}
+
+/*.botonAdjuntarHab {
+    
+    background-image: url('../Resources/img/btn_20_upload.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+
+    width: 130px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none !important;
+    
+    border-radius: 5px !important;
+    font-size: 10px;
+    padding: 3px;
+    background-position-y: 3px;
+    background-position-x: 4px;
+    background-color: #4b8df8;
+border: none;
+}
+.botonAdjuntarAFIP {
+    
+    background-image: url('../Resources/img/btn_20_upload.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+
+    width: 130px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none !important;
+    
+    border-radius: 5px !important;
+    font-size: 10px;
+    padding: 3px;
+    background-position-y: 3px;
+    background-position-x: 4px;
+    background-color: #00bfff;
+border: none;
+}
+*/
+
+.botonAsignarNroSifcos 
+{
+    width: 130px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none !important;
+    color: #fff;
+    background-color: #0075A3;
+    border-radius: 5px !important;
+    font-size: 10px;
+    padding: 3px;
+    border: none;
+}
+
+.botonEliminar3
+{
+    width: 130px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none !important;
+    color: #fff;
+    background-color: red;
+    border-radius: 5px !important;
+    font-size: 10px;
+    padding: 3px;
+    border: none;
+}
+
+.botonModificarTramite 
+{
+    width: 130px;
+  display: inline-block;
+   
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none !important;
+  color: #fff;
+  background-color: #4b8df8;
+  border-radius: 5px !important;
+  font-size: 10px;
+  padding: 3px;
+  border: none;
+}
+
+.botonCambiarEstadoTramite {
+  display: inline-block;
+ width: 130px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none !important;
+  color: #fff;
+  background-color: #ffa81f;
+  border-radius: 5px !important;
+  font-size: 10px;
+  padding: 3px;
+  border: none;
+}
+.botonDocumentacion {
+    border: none; 
+    min-width: 48px; 
+    min-height: 48px;
+    background-image: url('/Resources/btn_32_pdf.jpg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+
+}
+
+.botonNoArchivo {
+     border: none; 
+    min-width: 48px; 
+    min-height: 48px;
+    background-image: url('/Resources/no_archive_32.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+    
+}
+
+.efectoBoton:hover {
+     background-color: #0075A3;
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.efectoBoton:active {
+  background-color: #0075A3;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
+
+#Background
+    {
+        position: fixed; 
+        top: 0px; 
+        bottom: 0px; 
+        left: 0px; 
+        right: 0px; 
+        overflow: hidden; 
+        padding: 0; 
+        margin: 0; 
+        background-color: #F0F0F0; 
+        filter: alpha(opacity=80); 
+        opacity: 0.8; 
+        z-index: 100000;
+    }
+        
+    #Progress
+    {
+        position: fixed;
+        top: 40%; 
+        left: 40%; 
+        height:20%; 
+        width:20%; 
+        z-index: 100001;  
+        background-color: #FFFFFF; 
+        border:1px solid Gray;  
+        background-image: url('../Resources/loading.gif'); 
+        background-repeat: no-repeat; 
+        background-position:center;
+    }
+    
+
+#ConenedorPrincipal_rbPropietario {
+    margin-left: -9px;
+}
+
+#ConenedorPrincipal_rbInquilino {
+    margin-left: -9px;
+}
+
+#ConenedorPrincipal_rbSiCobertura{
+    margin-left: -9px;
+}
+
+#ConenedorPrincipal_rbNoCobertura{
+    margin-left: -9px;
+}
+
+#ConenedorPrincipal_rbSiCap{
+    margin-left: -9px;
+}
+#ConenedorPrincipal_rbNoCap{
+    margin-left: -9px;
+}
+#ConenedorPrincipal_rbSiSeg{
+    margin-left: -9px;
+}
+#ConenedorPrincipal_rbNoSeg{
+    margin-left: -9px;
+}
+
+#ConenedorPrincipal_chkprov{
+    margin-left: -9px;
+}
+#ConenedorPrincipal_ChkNacional{
+    margin-left: -9px;
+}
+#ConenedorPrincipal_ChkInter{
+    margin-left: -9px;
+}
+#ConenedorPrincipal_rb5{
+    margin-left: -9px;
+}
+#ConenedorPrincipal_rb510{
+    margin-left: -9px;
+}
+#ConenedorPrincipal_rb1015{
+    margin-left: -9px;
+}
+#ConenedorPrincipal_rb1520{
+    margin-left: -9px;
+}
+
+
+#myProgress {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background-color: grey;
+}
+#myBar {
+    position: absolute;
+    width: 1%;
+    height: 100%;
+    background-color: green;
+}
+.portlet.box.yellow > .portlet-title {
+    background-color: #0075A3 !important;
+}
+.form .form-section {
+    border-bottom: 1px solid #0075A3 !important;
+}
+.progress > .progress-bar-success {
+    background-color: #0075A3 !important;
+}
+.form-wizard .steps > li.done > a.step .number {
+       background-color: #0075A3 !important;
+       color:#fff !important;
+}
+.portlet.box.yellow2 {
+    background-color: #331B67 !important;
+    border: 1px solid #211142 !important;
+}

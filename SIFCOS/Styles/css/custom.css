@@ -1,0 +1,836 @@
+﻿/* ==================================================
+  EstiloFB Styling
+================================================== */
+
+.EstiloFB {
+    display: table;
+    position: relative;
+    background-image: url(/Bell/img/parallax-bg.jpg);
+    background-size: cover;
+    padding: 150px 0;
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+}
+
+.EstiloFB:after {
+    content: '';
+    z-index: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.35);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.EstiloFB .container {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.EstiloFB-brand {
+    margin-bottom: 75px;
+    display: inline-block;
+}
+
+.EstiloFB-brand:hover {
+    opacity: .75;
+}
+
+.EstiloFB2 {
+    display: table;
+    position: relative;
+    background-image: url(/Bell/img/parallax-bg.jpg);
+    background-size: cover;
+    padding: 150px 0;
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+}
+
+.tamañoIframe{
+
+    height: 400px;
+    width:100%;
+}
+
+.portlet.box.yellow>.portlet-title, .portlet.yellow, .portlet>.portlet-body.yellow {
+    background-color: #00A9E6 !important;
+    border: 1px solid #00A9E6 !important;
+    
+
+}
+
+
+.purple {
+     background-color: #B63D75 !important;
+     border: 1px solid #B63D75 !important;
+}
+
+.orange {
+     background-color: #EE7430 !important;
+     border: 1px solid #EE7430 !important;
+
+}
+
+.green {
+    background-color: #21A73F !important;
+     border: 1px solid #21A73F !important;
+    
+}
+.portlet.box.yellow2 {
+    background-color: #331B67 !important;
+    border: 1px solid #211142 !important;
+}
+.btn.blue {
+    color: white !important;
+    background-color: #1e90ff !important;
+}
+
+.btn.gold {
+    color: white !important;
+    background-color: #331B67 !important;
+}
+
+.page-footer .page-footer-tools .go-top2 {
+     background-color: #155B92;
+     color:black
+}
+.page-footer .page-footer-tools .go-top2:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+
+.btn.gray {
+    color: white !important;
+    background-color: gray !important;
+    margin-top: 23px;
+    
+}
+
+.btn.color-turquoise {
+    color: white !important;
+    background-color: #02A8D2 !important;
+    margin-top: 23px;
+    
+}
+
+.botonFooter {
+    color: white !important;
+   background-color: #4a4a4a !important;
+   margin-top: 23px;
+}
+
+#Background
+    {
+        position: fixed; 
+        top: 0px; 
+        bottom: 0px; 
+        left: 0px; 
+        right: 0px; 
+        overflow: hidden; 
+        padding: 0; 
+        margin: 0; 
+        background-color: #F0F0F0; 
+        filter: alpha(opacity=80); 
+        opacity: 0.8; 
+        z-index: 100000;
+    }
+        
+#Progress
+{
+    position: fixed;
+    top: 40%; 
+    left: 40%; 
+    height:20%; 
+    width:20%; 
+    z-index: 100001;  
+    background-color: #FFFFFF; 
+    border:1px solid Gray;  
+    background-image: url('../img/loading.gif'); 
+    background-repeat: no-repeat; 
+    background-position:center;
+}
+
+.progress-bar-success {
+
+    background-color: #02A8D2  !important;
+}
+    
+.form-wizard .steps>li.done>a.step .number {
+    color: white !important;
+    background-color:  #02A8D2  !important;
+}
+
+.form-wizard .steps>li.active>a.step .number {
+     color: white !important;
+    background-color: #45b6af !important;
+}
+
+.w3-teal, .w3-hover-teal:hover {
+    color: #fff !important;
+    background-color: #02A8D2 !important;
+}
+
+.checkNegritaGrande label {
+   font-weight: bold !important;
+}
+
+.checkAceptCond {
+zoom: 2;
+
+}
+
+.mostrarModal
+{
+    display: block !important;
+}
+
+.LiCerrar {
+    display: none !important;
+}
+
+
+.form-wizard .steps > li.done > a.step .desc i {
+    font-size: 23px !important;
+    font-weight: bold !important;
+    color: #02A8D2 !important;
+    display: inline-block !important;
+}
+.size_special {
+    font-size: 21px !important;
+}
+.botonEliminar {
+    border: none; 
+    min-width: 16px; 
+    min-height: 16px;
+    background-image: url('../Img/btn_20_borrar.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+        margin: 10px;
+}
+.botonImprimirPDF {
+    border: none; 
+    min-width: 64px; 
+    min-height: 64px;
+    background-image: url('../img/btn_32_pdf.jpg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+        margin: 10px;
+}
+.botonEditar {
+    border: none; 
+    min-width: 16px; 
+    min-height: 16px;
+    background-image: url('../Img/btn_20_editar.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+        margin: 10px;
+}
+
+.botonEliminar {
+    border: none; 
+    min-width: 16px; 
+    min-height: 16px;
+    background-image: url('../Img/btn_20_borrar.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+        margin: 10px;
+}
+
+.botonEliminar {
+    border: none; 
+    min-width: 16px; 
+    min-height: 16px;
+    background-image: url('../Img/btn_20_borrar.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+        margin: 10px;
+}
+
+.botonEliminar {
+    border: none; 
+    min-width: 16px; 
+    min-height: 16px;
+    background-image: url('../Img/btn_20_borrar.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+        margin: 10px;
+}
+
+.botonEliminar {
+    border: none; 
+    min-width: 16px; 
+    min-height: 16px;
+    background-image: url('../Img/btn_20_borrar.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+        margin: 10px;
+}
+
+.botonVerTramite {
+    border: none; 
+    min-width: 16px; 
+    min-height: 16px;
+    background-image: url('/Img/verTramite-32.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin: 10px;
+}
+
+.botonProducto {
+    border: none; 
+    min-width: 16px; 
+    min-height: 16px;
+    background-image: url('/Img/Producto-32.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin: 10px;
+}
+
+.botonMateriaPrima {
+    border: none; 
+    width: 32px;
+    height: 32px;
+    background-image: url('/Img/MateriaPrima-32.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin-left: 20px !important;
+    margin-top: 15px !important;
+}
+.botonEnviarCorreo {
+    border: none; 
+    min-width: 16px; 
+    min-height: 16px;
+    background-image: url('/Img/email-32.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin-left: 20px !important;
+    margin-top: 20px !important;
+}
+
+.botonTasas {
+    border: none; 
+    min-width: 16px; 
+    min-height: 16px;
+    background-image: url('/Img/Inversion-32.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin-left: 20px !important;
+    margin-top: 20px !important;
+}
+
+.botonGeo {
+    border: none; 
+
+    width: 32px;
+    height: 32px;
+    background-image: url('/Img/localizacion-32.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin-left: 20px !important;
+    margin-top: 15px !important;
+}
+
+.botonContacto {
+    border: none; 
+    width: 32px;
+    height: 32px;
+    background-image: url('/Img/Contacto-32.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin-left: 20px !important;
+    margin-top: 15px !important;
+}
+
+.botonDocumentacion {
+    border: none; 
+    width: 36px;
+    height: 36px;
+    background-image: url('/Img/btn_32_pdf.jpg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin-left: 20px !important;
+    margin-top: 15px !important;
+
+}
+
+.botonNoArchivo {
+     border: none; 
+    width: 32px;
+    height: 32px;
+    background-image: url('/Img/no_archive_32.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin-left: 20px !important;
+    margin-top: 15px !important;
+    
+}
+
+.botonCalidad {
+    border: none; 
+    min-width: 16px; 
+    min-height: 16px;
+    background-image: url('/Img/Calidad-32.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin: 10px;
+}
+
+.botonPersonal {
+    border: none; 
+    min-width: 16px; 
+    min-height: 16px;
+    background-image: url('/Img/Personal-32.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin: 10px;
+}
+.botonLocalizacion {
+    border: none; 
+    min-width: 16px; 
+    min-height: 16px;
+    background-image: url('/Img/localizacion-32.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin-left: 50px;
+    
+}
+
+.botonDomicilioRNE {
+    border: none; 
+    min-width: 20px; 
+    min-height: 20px;
+    background-image: url('/Img/localizacion-32.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.botonActividadRNE {
+    border: none; 
+    min-width: 20px; 
+    min-height: 20px;
+    background-image: url('/Img/actividad-32.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.botonProductoRNE {
+    border: none; 
+    min-width: 20px; 
+    min-height: 20px;
+    background-image: url('/Img/Producto-32.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.botonTramiteRNE {
+    border: none; 
+    min-width: 20px; 
+    min-height: 20px;
+    background-image: url('/Img/verTramite-32.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.botonActividad {
+    border: none; 
+    min-width: 16px; 
+    min-height: 16px;
+    background-image: url('/Img/actividad-32.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+}
+.botonCaldera {
+    border: none; 
+    min-width: 48px; 
+    min-height: 48px;
+    background-image: url('/Img/Caldera-32.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+}
+
+
+.botonPermisos {
+    border: none; 
+    min-width: 32px; 
+    min-height: 32px;
+    background-image: url('/Img/Lista-Permisos-32.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin: 10px;
+}
+
+.botonAddPermisos {
+    border: none; 
+    min-width: 32px; 
+    min-height: 32px;
+    background-image: url('/Img/Add-Permiso-32.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin: 10px;
+}
+
+.botonUsuarios {
+    border: none; 
+    min-width: 32px; 
+    min-height: 32px;
+    background-image: url('/Img/Users-32.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin: 10px;
+}
+
+.botonAddUser {
+    border: none; 
+    min-width: 32px; 
+    min-height: 32px;
+    background-image: url('/Img/Add-User-32.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin: 10px;
+}
+
+
+.botonPaginas {
+    border: none; 
+    min-width: 16px; 
+    min-height: 16px;
+    background-image: url('/Img/Lista-Paginas-32.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin: 10px;
+}
+
+.botonConfirmar {
+    border: none; 
+    min-width: 16px; 
+    min-height: 16px;
+    background-image: url('/img/check.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 32px;
+    height: 32px;
+    margin-top: 15px;
+    margin-left:20px;
+}
+
+.botonOk {
+    border: none; 
+    min-width: 16px; 
+    min-height: 16px;
+    background-image: url('/img/confirmado.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 32px;
+    height: 32px;
+    margin-top: 15px;
+    margin-left:20px;
+}
+.botonNoPosee {
+    border: none;
+    min-width: 16px;
+    min-height: 16px;
+    background-image: url('/img/NoPosee.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+}
+.botonAdvertencia {
+    border: none; 
+    min-width: 16px; 
+    min-height: 16px;
+    background-image: url('/img/advertencia2.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 32px;
+    height: 32px;
+    margin-top: 15px;
+    margin-left:20px
+}
+.botonAltaPrioridad {
+    border: none; 
+    min-width: 16px; 
+    min-height: 16px;
+    background-image: url('/img/alta-prioridad-48.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+}
+
+
+
+
+.botonImprimir {
+    
+   background-color: transparent;
+
+    width: 130px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none !important;
+    
+    border-radius: 5px !important;
+    font-size: 10px;
+    padding: 3px;
+    background-position-y: 3px;
+    background-position-x: 4px;
+    background-color: #d1d1d1;
+border: none;
+}
+
+.botonImpCert {
+    
+   background-color: transparent;
+
+    width: 130px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none !important;
+    
+    border-radius: 5px !important;
+    font-size: 10px;
+    padding: 3px;
+    background-position-y: 3px;
+    background-position-x: 4px;
+    background-color: #bc8f8f;
+border: none;
+
+}
+
+
+.botonImprimirTrs {
+    
+    background-color: transparent;
+
+    width: 130px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none !important;
+    
+    border-radius: 5px !important;
+    font-size: 10px;
+    padding: 3px;
+    background-position-y: 3px;
+    background-position-x: 4px;
+    background-color: #8fbc8f;
+border: none;
+}
+.botonModificarTramite 
+{
+    width: 130px;
+  display: inline-block;
+   
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none !important;
+  color: #fff;
+  background-color: #4b8df8;
+  border-radius: 5px !important;
+  font-size: 10px;
+  padding: 3px;
+  border: none;
+}
+
+.botonAdjDoc 
+{
+    width: 130px;
+  display: inline-block;
+   
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none !important;
+  color: #fff;
+  background-color: #4b8df8;
+  border-radius: 5px !important;
+  font-size: 10px;
+  padding: 3px;
+  border: none;
+}
+
+.botonCambiarEstadoTramite {
+  display: inline-block;
+  width: 130px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none !important;
+  color: #fff;
+  background-color: #ffa81f;
+  border-radius: 5px !important;
+  font-size: 10px;
+  padding: 3px;
+  border: none;
+}
+
+.botonConfirmar {
+  display: inline-block;
+  border-radius: 5px !important;
+  text-align: center;
+  color: #fff;
+  background-color: #62A73D;
+  width: 100%;
+  margin-left:1%;
+
+  
+}
+
+.botonVer {
+    
+    width: 130px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none !important;
+    border-radius: 5px !important;
+    font-size: 10px;
+    padding: 3px;
+    background-position-y: 3px;
+    background-position-x: 42px;
+    background-color: #45b6af;
+    background-size: 14px;
+    border: none;
+}
+
+.labelPrimario {
+    text-align: right;
+}
+.labelPrimario label {
+    font-weight: normal;
+}
+
+
+.labelModificar 
+{
+    text-align: left;
+}
+
+.labelModificar label
+{
+    font-weight: bold;
+    
+}
+
+.labelSecundario {
+    text-align: left;
+    background: none;
+    border: none;
+    font-weight: bold;
+}
+.labelSecundario label {
+    font-style: italic;
+}
+.btn-descargar-doc {
+    background-image: url('../img/download.png');
+    background-repeat: no-repeat;
+    background-color: #0FAFF2;
+    background-position: 7px;
+    color:white;
+    border-width: 0;
+    padding-top: 10px;
+    padding-left: 33px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    text-shadow: none;
+    margin-top: 5px;
+    font-weight: bold;
+    
+}
+
+.btn-descargar-doc:hover {
+    background-color: #0FAFF2;
+    color:black;
+}
+
+.submentu-texto {
+    display: block;
+}
+
+@media (max-width: 480px) {
+    .submentu-texto {
+        display: none !important;
+    }
+}
+@media (min-width: 992px) {
+    .page-content2 {
+    margin-left: 235px;
+    margin-top: 0px;
+    min-height: 600px;
+    padding: 25px 20px 10px 20px;
+  }
+  
+  .page-content2 {
+    margin-left: 45px;
+  }
+  .page-content2 {
+    margin-left: 0 !important;
+    margin-right: 235px !important;
+  }
+  .page-content2 {
+    margin-left: 0;
+    margin-right: 45px;
+  }
+  .page-content2 {
+    margin-left: 0 !important;
+    margin-right: 45px !important;
+  }
+  .page-content2 {
+    margin-left: 45px !important;
+  }
+  .page-content2 {
+    margin-left: 0 !important;
+  }
+  .page-content2 {
+    margin-right: 0 !important;
+  }
+  .page-content2 {
+    margin-left: 0px !important;
+  }
+}
